@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/webhook", "dest": "/api/webhook" },
+    { "src": "/", "dest": "/api/webhook" }
+  ]
+}
