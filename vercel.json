@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "env": {
-    "PAGE_ACCESS_TOKEN": "@page_access_token",
-    "WHATSAPP_TOKEN": "@whatsapp_token",
-    "PHONE_NUMBER_ID": "@phone_number_id"
-  }
+  ]
 }
