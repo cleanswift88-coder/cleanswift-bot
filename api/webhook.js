@@ -131,9 +131,7 @@ function callFBAPI(path, token, postData){
   return new Promise((resolve, reject) => {
     const agent = new https.Agent({
       rejectUnauthorized: false,
-      secureProtocol: 'TLSv1_2_method',
-      minVersion: 'TLSv1.2',
-      maxVersion: 'TLSv1.3'
+      minVersion: 'TLSv1.2'
     });
     const options = {
       hostname: 'graph.facebook.com',
